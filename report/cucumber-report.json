@@ -1,0 +1,304 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-19T14:20:35.671Z",
+        "before": [
+          {
+            "result": {
+              "duration": 589488846,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.beforeScenario()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Click on first link",
+        "description": "",
+        "id": "test-link-page-guru99;click-on-first-link",
+        "after": [
+          {
+            "result": {
+              "duration": 66736020,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1413446998,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Open the page",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.openThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 912808562,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on first link",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.clickOnLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 172497907,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.guru99.linkpage.LinkPage.iShouldSee(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T14:20:38.913Z",
+        "before": [
+          {
+            "result": {
+              "duration": 163875376,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.beforeScenario()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Click on second link",
+        "description": "",
+        "id": "test-link-page-guru99;click-on-second-link",
+        "after": [
+          {
+            "result": {
+              "duration": 66564070,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1454028430,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Open the page",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.openThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1071622185,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Click on second link",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.clickOnSecondLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 54630049,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I should see logo \"Facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Facebook\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.guru99.linkpage.LinkPage.iShouldSeeLogo(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-19T14:20:41.738Z",
+        "before": [
+          {
+            "result": {
+              "duration": 155992894,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.beforeScenario()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "Navigate with link",
+        "description": "",
+        "id": "test-link-page-guru99;navigate-with-link",
+        "after": [
+          {
+            "result": {
+              "duration": 66527344,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1431135128,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Open the page",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.openThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 805013232,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Click on first link",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.clickOnLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 148761257,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "I should see \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google\"",
+                  "offset": 13
+                }
+              ],
+              "location": "com.guru99.linkpage.LinkPage.iShouldSee(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 123936753,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "Go back",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.goBack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1001006988,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Click on second link",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.clickOnSecondLink()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 101410096,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "I should see logo \"Facebook\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Facebook\"",
+                  "offset": 18
+                }
+              ],
+              "location": "com.guru99.linkpage.LinkPage.iShouldSeeLogo(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 111824997,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Go back",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.goBack()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 24366741,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "I should see the link",
+            "match": {
+              "location": "com.guru99.linkpage.LinkPage.iShouldSeeTheLink()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test link page Guru99",
+    "description": "",
+    "id": "test-link-page-guru99",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Guru99.feature",
+    "tags": []
+  }
+]

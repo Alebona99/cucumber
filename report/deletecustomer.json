@@ -1,0 +1,148 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-05-19T15:12:13.202Z",
+        "before": [
+          {
+            "result": {
+              "duration": 559765097,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.beforeScenario()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Delete a customer",
+        "description": "",
+        "id": "delete-customer-guru99;delete-a-customer",
+        "after": [
+          {
+            "result": {
+              "duration": 65155060,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1203296725,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Open Delete Customer page",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.openThePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 129318653,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Insert Customer ID \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.insertCustomerID(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50802496,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Submit",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.submit()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10774360,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I should see Confirm alert",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeAlert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 8984374,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click Confirm",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 339675778,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see Success alert",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeSuccessAlert()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15933714,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Click Confirm",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.confirm()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 76511516,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "See Home Page",
+            "match": {
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.seeHomePage()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Delete Customer Guru99",
+    "description": "",
+    "id": "delete-customer-guru99",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Guru99Delete.feature",
+    "tags": []
+  }
+]
