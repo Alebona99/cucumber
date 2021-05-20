@@ -31,41 +31,41 @@ public class DeleteCustomerPage {
         mainPage.inputCustomer.sendKeys(arg0);
     }
 
-    @And("Submit")
+    @And("Click Submit button")
     public void submit() {
         DeleteCustomerPageElements mainPage = new DeleteCustomerPageElements(driver);
         mainPage.submit.click();
     }
 
-    @Then("I should see Confirm alert")
+    @And("I should see Confirm alert")
     public void iShouldSeeAlert() {
         Assertions.assertTrue(driver.switchTo().alert().getText().contains("Do you really want to delete this Customer?"));
     }
 
-    @And("Click Confirm")
+    @And("Click Confirm button")
     public void confirm() {
         driver.switchTo().alert().accept();
     }
 
-    @Then("I should see Success alert")
+    @And("I should see Success alert")
     public void iShouldSeeSuccessAlert() {
         Assertions.assertTrue(driver.switchTo().alert().getText().contains("Customer Successfully Delete!"));
     }
 
 
-    @And("See Home Page")
+    @Then("I should see Home Page")
     public void seeHomePage() {
         DeleteCustomerPageElements mainPage = new DeleteCustomerPageElements(driver);
         Assertions.assertTrue(mainPage.title.getText().equals("Guru99 Bank"));
     }
 
-    @And("Click Cancel")
+    @And("Click Cancel button")
     public void clickCancel() {
         driver.switchTo().alert().dismiss();
     }
 
 
-    @And("Click Reset")
+    @And("Click Reset button")
     public void clickReset() {
         DeleteCustomerPageElements mainPage = new DeleteCustomerPageElements(driver);
         mainPage.reset.click();

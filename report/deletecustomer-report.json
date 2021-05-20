@@ -3,11 +3,11 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2021-05-20T08:58:50.101Z",
+        "start_timestamp": "2021-05-20T10:05:18.796Z",
         "before": [
           {
             "result": {
-              "duration": 448634014,
+              "duration": 721461860,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 67303595,
+              "duration": 66277212,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1278324817,
+              "duration": 1405120072,
               "status": "passed"
             },
             "line": 4,
@@ -47,17 +47,26 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 93224398,
+              "status": "passed"
             },
             "line": 5,
-            "name": "Insert Customer ID 1234",
-            "match": {},
+            "name": "Insert Customer ID \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"1234\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.insertCustomerID(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 285710,
-              "status": "skipped"
+              "duration": 75074885,
+              "status": "passed"
             },
             "line": 6,
             "name": "Submit",
@@ -68,8 +77,8 @@
           },
           {
             "result": {
-              "duration": 173346,
-              "status": "skipped"
+              "duration": 9450028,
+              "status": "passed"
             },
             "line": 7,
             "name": "I should see Confirm alert",
@@ -80,8 +89,8 @@
           },
           {
             "result": {
-              "duration": 156977,
-              "status": "skipped"
+              "duration": 7990380,
+              "status": "passed"
             },
             "line": 8,
             "name": "Click Confirm",
@@ -92,8 +101,8 @@
           },
           {
             "result": {
-              "duration": 221278,
-              "status": "skipped"
+              "duration": 186376948,
+              "status": "passed"
             },
             "line": 9,
             "name": "I should see Success alert",
@@ -104,8 +113,8 @@
           },
           {
             "result": {
-              "duration": 654673,
-              "status": "skipped"
+              "duration": 10556909,
+              "status": "passed"
             },
             "line": 10,
             "name": "Click Confirm",
@@ -116,8 +125,8 @@
           },
           {
             "result": {
-              "duration": 233231,
-              "status": "skipped"
+              "duration": 61261096,
+              "status": "passed"
             },
             "line": 11,
             "name": "See Home Page",
@@ -129,11 +138,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-20T08:58:51.987Z",
+        "start_timestamp": "2021-05-20T10:05:21.533Z",
         "before": [
           {
             "result": {
-              "duration": 138137200,
+              "duration": 176821004,
               "status": "passed"
             },
             "match": {
@@ -148,7 +157,7 @@
         "after": [
           {
             "result": {
-              "duration": 65666615,
+              "duration": 74150777,
               "status": "passed"
             },
             "match": {
@@ -161,7 +170,7 @@
         "steps": [
           {
             "result": {
-              "duration": 1177265061,
+              "duration": 1618228732,
               "status": "passed"
             },
             "line": 4,
@@ -173,17 +182,26 @@
           },
           {
             "result": {
-              "status": "undefined"
+              "duration": 180385996,
+              "status": "passed"
             },
             "line": 5,
-            "name": "Insert Customer ID acd",
-            "match": {},
+            "name": "Insert Customer ID \"bac\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"bac\"",
+                  "offset": 19
+                }
+              ],
+              "location": "com.guru99.deletecustomer.DeleteCustomerPage.insertCustomerID(java.lang.String)"
+            },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 112622,
-              "status": "skipped"
+              "duration": 88868353,
+              "status": "passed"
             },
             "line": 6,
             "name": "Submit",
@@ -194,8 +212,8 @@
           },
           {
             "result": {
-              "duration": 84194,
-              "status": "skipped"
+              "duration": 5045038,
+              "status": "passed"
             },
             "line": 7,
             "name": "I should see Confirm alert",
@@ -206,8 +224,8 @@
           },
           {
             "result": {
-              "duration": 469062,
-              "status": "skipped"
+              "duration": 10238018,
+              "status": "passed"
             },
             "line": 8,
             "name": "Click Confirm",
@@ -218,8 +236,8 @@
           },
           {
             "result": {
-              "duration": 117792,
-              "status": "skipped"
+              "duration": 338595864,
+              "status": "passed"
             },
             "line": 9,
             "name": "I should see Success alert",
@@ -230,8 +248,8 @@
           },
           {
             "result": {
-              "duration": 87275,
-              "status": "skipped"
+              "duration": 15190588,
+              "status": "passed"
             },
             "line": 10,
             "name": "Click Confirm",
@@ -242,8 +260,8 @@
           },
           {
             "result": {
-              "duration": 78050,
-              "status": "skipped"
+              "duration": 123874220,
+              "status": "passed"
             },
             "line": 11,
             "name": "See Home Page",
@@ -255,11 +273,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-20T08:58:53.400Z",
+        "start_timestamp": "2021-05-20T10:05:24.189Z",
         "before": [
           {
             "result": {
-              "duration": 145546515,
+              "duration": 202381805,
               "status": "passed"
             },
             "match": {
@@ -267,266 +285,14 @@
             }
           }
         ],
-        "line": 17,
-        "name": "Delete a customer",
-        "description": "",
-        "id": "delete-customer-guru99;delete-a-customer;;4",
-        "after": [
-          {
-            "result": {
-              "duration": 66050338,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.afterScenario()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1261784642,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Open Delete Customer page",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.openThePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "Insert Customer ID abcd",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 221477,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "Submit",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.submit()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 206104,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "I should see Confirm alert",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeAlert()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 231289,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "Click Confirm",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.confirm()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 222519,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "I should see Success alert",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeSuccessAlert()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 177421,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "Click Confirm",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.confirm()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 178900,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "See Home Page",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.seeHomePage()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-05-20T08:58:54.892Z",
-        "before": [
-          {
-            "result": {
-              "duration": 132332649,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.beforeScenario()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Delete a customer",
-        "description": "",
-        "id": "delete-customer-guru99;delete-a-customer;;5",
-        "after": [
-          {
-            "result": {
-              "duration": 67087628,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.afterScenario()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 1198875128,
-              "status": "passed"
-            },
-            "line": 4,
-            "name": "Open Delete Customer page",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.openThePage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 5,
-            "name": "Insert Customer ID 123bcv",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 190958,
-              "status": "skipped"
-            },
-            "line": 6,
-            "name": "Submit",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.submit()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 136372,
-              "status": "skipped"
-            },
-            "line": 7,
-            "name": "I should see Confirm alert",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeAlert()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 109073,
-              "status": "skipped"
-            },
-            "line": 8,
-            "name": "Click Confirm",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.confirm()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 111688,
-              "status": "skipped"
-            },
-            "line": 9,
-            "name": "I should see Success alert",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeSuccessAlert()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-              "duration": 202550,
-              "status": "skipped"
-            },
-            "line": 10,
-            "name": "Click Confirm",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.confirm()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 111624,
-              "status": "skipped"
-            },
-            "line": 11,
-            "name": "See Home Page",
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.seeHomePage()"
-            },
-            "keyword": "And "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2021-05-20T08:58:56.333Z",
-        "before": [
-          {
-            "result": {
-              "duration": 136167221,
-              "status": "passed"
-            },
-            "match": {
-              "location": "com.guru99.deletecustomer.DeleteCustomerPage.beforeScenario()"
-            }
-          }
-        ],
-        "line": 22,
+        "line": 20,
         "name": "Cancel Delete Customer",
         "description": "",
         "id": "delete-customer-guru99;cancel-delete-customer",
         "after": [
           {
             "result": {
-              "duration": 65384090,
+              "duration": 69434123,
               "status": "passed"
             },
             "match": {
@@ -539,10 +305,10 @@
         "steps": [
           {
             "result": {
-              "duration": 1330372277,
+              "duration": 1530774667,
               "status": "passed"
             },
-            "line": 23,
+            "line": 21,
             "name": "Open Delete Customer page",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.openThePage()"
@@ -551,10 +317,10 @@
           },
           {
             "result": {
-              "duration": 80284320,
+              "duration": 120847529,
               "status": "passed"
             },
-            "line": 24,
+            "line": 22,
             "name": "Insert Customer ID \"1234\"",
             "match": {
               "arguments": [
@@ -569,10 +335,10 @@
           },
           {
             "result": {
-              "duration": 42664619,
+              "duration": 91151694,
               "status": "passed"
             },
-            "line": 25,
+            "line": 23,
             "name": "Submit",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.submit()"
@@ -581,10 +347,10 @@
           },
           {
             "result": {
-              "duration": 5665058,
+              "duration": 6820272,
               "status": "passed"
             },
-            "line": 26,
+            "line": 24,
             "name": "I should see Confirm alert",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeAlert()"
@@ -593,10 +359,10 @@
           },
           {
             "result": {
-              "duration": 4654023,
+              "duration": 9590879,
               "status": "passed"
             },
-            "line": 27,
+            "line": 25,
             "name": "Click Cancel",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.clickCancel()"
@@ -605,10 +371,10 @@
           },
           {
             "result": {
-              "duration": 23181455,
+              "duration": 46140492,
               "status": "passed"
             },
-            "line": 28,
+            "line": 26,
             "name": "See Home Page",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.seeHomePage()"
@@ -618,11 +384,11 @@
         ]
       },
       {
-        "start_timestamp": "2021-05-20T08:58:58.034Z",
+        "start_timestamp": "2021-05-20T10:05:26.284Z",
         "before": [
           {
             "result": {
-              "duration": 138616818,
+              "duration": 200505475,
               "status": "passed"
             },
             "match": {
@@ -630,14 +396,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 28,
         "name": "Reset Input Customer Id",
         "description": "",
         "id": "delete-customer-guru99;reset-input-customer-id",
         "after": [
           {
             "result": {
-              "duration": 66814348,
+              "duration": 67126800,
               "status": "passed"
             },
             "match": {
@@ -650,10 +416,10 @@
         "steps": [
           {
             "result": {
-              "duration": 2323061774,
+              "duration": 1658699718,
               "status": "passed"
             },
-            "line": 31,
+            "line": 29,
             "name": "Open Delete Customer page",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.openThePage()"
@@ -662,10 +428,10 @@
           },
           {
             "result": {
-              "duration": 99056884,
+              "duration": 128705826,
               "status": "passed"
             },
-            "line": 32,
+            "line": 30,
             "name": "Insert Customer ID \"1234\"",
             "match": {
               "arguments": [
@@ -680,10 +446,10 @@
           },
           {
             "result": {
-              "duration": 43107074,
+              "duration": 103222494,
               "status": "passed"
             },
-            "line": 33,
+            "line": 31,
             "name": "Click Reset",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.clickReset()"
@@ -692,10 +458,10 @@
           },
           {
             "result": {
-              "duration": 16981491,
+              "duration": 37424159,
               "status": "passed"
             },
-            "line": 34,
+            "line": 32,
             "name": "I should see blank Input",
             "match": {
               "location": "com.guru99.deletecustomer.DeleteCustomerPage.iShouldSeeBlankInput()"
